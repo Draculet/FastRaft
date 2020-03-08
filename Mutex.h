@@ -58,7 +58,10 @@ namespace net
 			}
 			MutexGuard(const MutexGuard &)=delete;
 			MutexGuard(MutexGuard &&)=delete;
-			~MutexGuard(){mutex_.unlock();}
+			~MutexGuard()
+			{
+				mutex_.unlock();
+			}
 		private:
 			Mutex &mutex_;//引用
 	};

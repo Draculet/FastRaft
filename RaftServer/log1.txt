@@ -1,0 +1,1637 @@
+*debug* addchannel 4
+*debug* wakeupchannel add
+*debug* addchannel 5
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 1589943
+*debug* Server Start
+*debug* accept channel add
+*debug* addchannel 6
+*debug* addchannel 9
+*debug* wakeupchannel add
+*debug* addchannel 10
+*debug* addchannel 12
+*debug* wakeupchannel add
+*debug* addchannel 13
+*debug* addchannel 15
+*debug* wakeupchannel add
+*debug* addchannel 16
+*debug* addchannel 18
+*debug* wakeupchannel add
+*debug* addchannel 19
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35786
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13528
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679052596684_______Recv VotReq from 0_____________
+______time:1583679052596696_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13528 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679052597428________Recv ApdReq from 0_____________
+_______LOGSIZE__1______
+__time:1583679052597465_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* In Thread 13523 Be WakeUped()
+___________type Decoder_____________
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1179806
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679053777611_________becomeCandidate__term: 2___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 1
+____time:1583679053777768_______ReqestVote Call to nodeid 0_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679053777800______ResetHeartBeat_noid: 0__name: node0__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+____time:1583679053777845_______ReqestVote Call to nodeid 2_____________
+*debug* dotasks nums 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679053777876______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 1319964
+*debug* resetTimer: time: 1319944
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+New Raft Conn Call Back Before
+*debug* dotasks nums 2
+___time:1583679053778208________ReqVote Call_____________
+*debug* In Thread 13529 RunInloop Directly()
+*debug* hanleEstablish 13529
+*debug* addchannel 21
+New Raft Conn Call Back After
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679053778319________ReqVote Call_____________
+*debug* Need Reset
+*debug* write 34 bytes in sendData
+*debug* resetTimer: time: 4999511
+*debug* Write Finish
+*debug* Need Reset
+*debug* resetTimer: time: 4999402
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 30
+*debug* Fd 21 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679053778968_______Recv VotResp from 0_____________
+
+
+_____time:1583679053779009______becomeLeader_term:2____________
+
+
+__time:1583679053779041_________AppendEntry Call to nodeid 0_____________
+____time:1583679053779072______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13529 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679053779144_________AppendEntry Call to nodeid 2_____________
+____time:1583679053779174______ResetHeartBeat_noid: 2__name: node2__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* write 65 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test ApdRes_____________
+__time:1583679053779775_________Recv ApdRes from 0_____________
+___________Test NodeId 0_____________
+___________Test MatchIndex 2_____________
+___________Test succ true_____________
+____time:1583679053779790__________SHow____________
+lastLogindex 2
+logsize 4
+3 3 2 
+2 0 0 
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 20
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* No Timer
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35800
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13531
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679055300948_______Recv VotReq from 0_____________
+______time:1583679055300960_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13531 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 999846
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679055301481________Recv ApdReq from 0_____________
+
+
+____time:1583679055301489_______becomeFollower_term:3____________
+
+
+*debug* In Thread 13531 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* dotasks nums 1
+*debug* handleClose()
+*debug* removechannel 21
+*debug* epoll_wait ret 1
+_______LOGSIZE__1______
+*debug* In Thread 13529 Cross Thread RunInloop()
+__time:1583679055301588_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 3
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* Need Reset
+*debug* resetTimer: time: 1089873
+*debug* ~Connection fd 21
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679056391763_________becomeCandidate__term: 4___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 1
+____time:1583679056391869_______ReqestVote Call to nodeid 0_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679056391890______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679056391921_______ReqestVote Call to nodeid 2_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679056391938______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 1049975
+*debug* resetTimer: time: 1049962
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 3
+New Raft Conn Call Back Before
+*debug* In Thread 13528 RunInloop Directly()
+*debug* hanleEstablish 13528
+*debug* addchannel 21
+New Raft Conn Call Back After
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679056392148________ReqVote Call_____________
+___time:1583679056392175________ReqVote Call_____________
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* Need Reset
+*debug* resetTimer: time: 4999653
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 30
+*debug* Fd 21 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679056392769_______Recv VotResp from 0_____________
+
+
+_____time:1583679056392779______becomeLeader_term:4____________
+
+
+__time:1583679056392800_________AppendEntry Call to nodeid 0_____________
+____time:1583679056392822______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13528 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679056392883_________AppendEntry Call to nodeid 2_____________
+____time:1583679056392910______ResetHeartBeat_noid: 2__name: node2__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* write 65 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test ApdRes_____________
+__time:1583679056393516_________Recv ApdRes from 0_____________
+___________Test NodeId 0_____________
+___________Test MatchIndex 4_____________
+___________Test succ true_____________
+____time:1583679056393524__________SHow____________
+lastLogindex 4
+logsize 6
+5 5 4 
+4 0 0 
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 20
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* No Timer
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35816
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13530
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679057594274_______Recv VotReq from 0_____________
+______time:1583679057594292_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13530 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1079805
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679057594958________Recv ApdReq from 0_____________
+
+
+____time:1583679057594970_______becomeFollower_term:5____________
+
+
+*debug* In Thread 13530 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* dotasks nums 1
+*debug* handleClose()
+*debug* removechannel 21
+_______LOGSIZE__1______
+__time:1583679057595096_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 3
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Need Reset
+*debug* Write Finish
+___________type Decoder_____________
+*debug* resetTimer: time: 1299806
+*debug* ~Connection fd 21
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* Timer::handleRead()
+*debug* In Thread 13530 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 856
+*debug* resetTimer: time: 946
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* Timer::handleRead()
+*debug* In Thread 13529 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+timeouts size: 1
+*debug* No Timer
+*debug* resetTimer: time: 2613420
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679058895476_________becomeCandidate__term: 6___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679058895608_______ReqestVote Call to nodeid 0_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+____time:1583679058895641______ResetHeartBeat_noid: 0__name: node0__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13528 Be WakeUped()
+*debug* In Thread 13531 Be WakeUped()
+____time:1583679058895689_______ReqestVote Call to nodeid 2_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679058895865______ResetHeartBeat_noid: 2__name: node2__________
+*debug* dotasks nums 3
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 1609953
+*debug* resetTimer: time: 1609925
+*debug* dotasks nums 1
+New Raft Conn Call Back Before
+*debug* In Thread 13531 RunInloop Directly()
+*debug* hanleEstablish 13531
+*debug* addchannel 21
+New Raft Conn Call Back After
+___time:1583679058896451________ReqVote Call_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679058896569________ReqVote Call_____________
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* Need Reset
+*debug* resetTimer: time: 4999026
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 30
+*debug* Fd 21 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679058896878_______Recv VotResp from 0_____________
+
+
+_____time:1583679058896893______becomeLeader_term:6____________
+
+
+__time:1583679058896945_________AppendEntry Call to nodeid 0_____________
+____time:1583679058896979______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13531 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679058897060_________AppendEntry Call to nodeid 2_____________
+____time:1583679058897095______ResetHeartBeat_noid: 2__name: node2__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* write 65 bytes in sendData
+*debug* Write Finish
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test ApdRes_____________
+__time:1583679058897752_________Recv ApdRes from 0_____________
+___________Test NodeId 0_____________
+___________Test MatchIndex 6_____________
+___________Test succ true_____________
+____time:1583679058897768__________SHow____________
+lastLogindex 6
+logsize 8
+7 7 6 
+6 0 0 
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 20
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35832
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13529
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679060249284_______Recv VotReq from 0_____________
+______time:1583679060249306_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13529 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1399700
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679060250134________Recv ApdReq from 0_____________
+
+
+____time:1583679060250149_______becomeFollower_term:7____________
+
+
+*debug* In Thread 13529 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 1
+*debug* handleClose()
+*debug* removechannel 21
+*debug* epoll_wait ret 1
+_______LOGSIZE__1______
+__time:1583679060250306_________Resp AppendEntry True_____________
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13531 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* Need Reset
+*debug* resetTimer: time: 1359813
+*debug* ~Connection fd 21
+*debug* ~Channel()
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 785
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* Timer::handleRead()
+*debug* No Timer
+timeouts size: 1
+*debug* resetTimer: time: 2503911
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 249531
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679061860527_________becomeCandidate__term: 8___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679061860664_______ReqestVote Call to nodeid 0_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 1
+*debug* dotasks nums 2
+____time:1583679061860728______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679061860781_______ReqestVote Call to nodeid 2_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679061860809______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 1869949
+*debug* resetTimer: time: 1869918
+New Raft Conn Call Back Before
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13530 RunInloop Directly()
+___time:1583679061861067________ReqVote Call_____________
+*debug* hanleEstablish 13530
+*debug* addchannel 21
+New Raft Conn Call Back After
+___time:1583679061861117________ReqVote Call_____________
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 4999360
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 30
+*debug* Fd 21 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679061861691_______Recv VotResp from 0_____________
+
+
+_____time:1583679061861708______becomeLeader_term:8____________
+
+
+__time:1583679061861846_________AppendEntry Call to nodeid 0_____________
+____time:1583679061861889______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13530 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679061862008_________AppendEntry Call to nodeid 2_____________
+____time:1583679061862182______ResetHeartBeat_noid: 2__name: node2__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* write 65 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test ApdRes_____________
+__time:1583679061862825_________Recv ApdRes from 0_____________
+___________Test NodeId 0_____________
+___________Test MatchIndex 8_____________
+___________Test succ true_____________
+____time:1583679061862842__________SHow____________
+lastLogindex 8
+logsize 10
+9 9 8 
+8 0 0 
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 20
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35848
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13528
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679063544135_______Recv VotReq from 0_____________
+______time:1583679063544149_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13528 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1889838
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679063544955________Recv ApdReq from 0_____________
+
+
+____time:1583679063544969_______becomeFollower_term:9____________
+
+
+*debug* In Thread 13528 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 1
+_______LOGSIZE__1______
+__time:1583679063545107_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* handleClose()
+*debug* epoll_wait ret 1
+*debug* removechannel 21
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* Need Reset
+*debug* resetTimer: time: 1079833
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 21
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 623
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* No Timer
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* resetTimer: time: 2964746
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 459974
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679065085310_________becomeCandidate__term: 10___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 1
+____time:1583679065085492_______ReqestVote Call to nodeid 0_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+____time:1583679065085544______ResetHeartBeat_noid: 0__name: node0__________
+*debug* dotasks nums 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679065085609_______ReqestVote Call to nodeid 2_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679065085641______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 1009947
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* resetTimer: time: 1009913
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679065085808________ReqVote Call_____________
+New Raft Conn Call Back Before
+*debug* In Thread 13529 RunInloop Directly()
+*debug* hanleEstablish 13529
+*debug* addchannel 21
+New Raft Conn Call Back After
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 2
+*debug* No Need Reset
+___time:1583679065085999________ReqVote Call_____________
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* Need Reset
+*debug* resetTimer: time: 4999301
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 30
+*debug* Fd 21 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679065086566_______Recv VotResp from 0_____________
+
+
+_____time:1583679065086593______becomeLeader_term:10____________
+
+
+__time:1583679065086629_________AppendEntry Call to nodeid 0_____________
+____time:1583679065086663______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13529 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679065086771_________AppendEntry Call to nodeid 2_____________
+____time:1583679065086815______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* dotasks nums 2
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* write 65 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test ApdRes_____________
+__time:1583679065087564_________Recv ApdRes from 0_____________
+___________Test NodeId 0_____________
+___________Test MatchIndex 10_____________
+___________Test succ true_____________
+*debug* epoll_wait ret 1
+____time:1583679065087676__________SHow____________
+*debug* In Thread 13528 Poller Return
+lastLogindex 10
+logsize 12
+11 11 10 
+10 0 0 
+___________type Decoder_____________
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 20
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* No Timer
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35864
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13531
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679066418380_______Recv VotReq from 0_____________
+______time:1583679066418392_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13531 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1619867
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679066419088________Recv ApdReq from 0_____________
+
+
+____time:1583679066419097_______becomeFollower_term:11____________
+
+
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 1
+*debug* handleClose()
+*debug* removechannel 21
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+__________ResetElection__________
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* In Thread 13531 Cross Thread RunInloop()
+_______LOGSIZE__1______
+*debug* ~Connection fd 21
+__time:1583679066419225_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* ~Channel()
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* socket close
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 2
+*debug* No Need Reset
+*debug* Need Reset
+*debug* resetTimer: time: 1359883
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 555
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* Timer::handleRead()
+*debug* epoll_wait ret 1
+timeouts size: 1
+*debug* In Thread 13530 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* No Timer
+*debug* resetTimer: time: 3224362
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679067779866_________becomeCandidate__term: 12___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 1
+____time:1583679067780030_______ReqestVote Call to nodeid 0_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+____time:1583679067780209______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679067780287_______ReqestVote Call to nodeid 2_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679067780326______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+New Raft Conn Call Back Before
+*debug* resetTimer: time: 1259940
+*debug* resetTimer: time: 1259876
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679067780597________ReqVote Call_____________
+*debug* In Thread 13528 RunInloop Directly()
+*debug* hanleEstablish 13528
+*debug* addchannel 21
+New Raft Conn Call Back After
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679067780751________ReqVote Call_____________
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* Need Reset
+*debug* resetTimer: time: 4999297
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 30
+*debug* Fd 21 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679067781237_______Recv VotResp from 0_____________
+
+
+_____time:1583679067781255______becomeLeader_term:12____________
+
+
+__time:1583679067781295_________AppendEntry Call to nodeid 0_____________
+____time:1583679067781335______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13528 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679067781423_________AppendEntry Call to nodeid 2_____________
+____time:1583679067781457______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* dotasks nums 1
+*debug* In Thread 13529 Poller Return
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Be WakeUped()
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* dotasks nums 2
+*debug* write 65 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test ApdRes_____________
+__time:1583679067782313_________Recv ApdRes from 0_____________
+___________Test NodeId 0_____________
+___________Test MatchIndex 12_____________
+___________Test succ true_____________
+____time:1583679067782335__________SHow____________
+lastLogindex 12
+logsize 14
+13 13 12 
+12 0 0 
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 20
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35880
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13530
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679068993107_______Recv VotReq from 0_____________
+______time:1583679068993123_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13530 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1639867
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679068993944________Recv ApdReq from 0_____________
+
+
+____time:1583679068993957_______becomeFollower_term:13____________
+
+
+*debug* In Thread 13530 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* dotasks nums 1
+*debug* handleClose()
+*debug* removechannel 21
+_______LOGSIZE__1______
+__time:1583679068994201_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Cross Thread RunInloop()
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 2
+*debug* Need Reset
+*debug* resetTimer: time: 1329816
+*debug* ~Connection fd 21
+*debug* ~Channel()
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 965
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* resetTimer: time: 2694639
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* No Timer
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 349999
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679070674847_________becomeCandidate__term: 14___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 1
+____time:1583679070674999_______ReqestVote Call to nodeid 0_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679070675035______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+____time:1583679070675098_______ReqestVote Call to nodeid 2_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* dotasks nums 1
+____time:1583679070675142______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 999950
+*debug* resetTimer: time: 999921
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679070675376________ReqVote Call_____________
+New Raft Conn Call Back Before
+*debug* In Thread 13531 RunInloop Directly()
+*debug* hanleEstablish 13531
+*debug* addchannel 21
+New Raft Conn Call Back After
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679070675508________ReqVote Call_____________
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* Need Reset
+*debug* resetTimer: time: 4999176
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 30
+*debug* Fd 21 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679070676307_______Recv VotResp from 0_____________
+
+
+_____time:1583679070676324______becomeLeader_term:14____________
+
+
+__time:1583679070676360_________AppendEntry Call to nodeid 0_____________
+____time:1583679070676401______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13531 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679070676491_________AppendEntry Call to nodeid 2_____________
+____time:1583679070676525______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* In Thread 13528 Be WakeUped()
+*debug* dotasks nums 2
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* write 65 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test ApdRes_____________
+__time:1583679070677204_________Recv ApdRes from 0_____________
+___________Test NodeId 0_____________
+___________Test MatchIndex 14_____________
+___________Test succ true_____________
+____time:1583679070677220__________SHow____________
+lastLogindex 14
+logsize 16
+15 15 14 
+14 0 0 
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 20
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* No Timer
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* accept conn 127.0.0.1:35896
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* In Thread 13529 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13529
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 34
+*debug* Fd 20 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583679072258986_______Recv VotReq from 0_____________
+______time:1583679072259001_____Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 13529 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1629832
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* readv ret 65
+*debug* Fd 20 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583679072259732________Recv ApdReq from 0_____________
+
+
+____time:1583679072259745_______becomeFollower_term:15____________
+
+
+*debug* In Thread 13529 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 1
+*debug* handleClose()
+*debug* removechannel 21
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* In Thread 13531 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+_______LOGSIZE__1______
+__time:1583679072260057_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* dotasks nums 2
+*debug* In Thread 13529 Cross Thread RunInloop()
+*debug* No Need Reset
+*debug* ~Connection fd 21
+*debug* ~Channel()
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 1619674
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 573
+*debug* epoll_wait ret 1
+*debug* In Thread 13529 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* No Timer
+*debug* epoll_wait ret 1
+*debug* In Thread 13528 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+*debug* resetTimer: time: 2894623
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* Timer::handleRead()
+timeouts size: 1
+
+
+__time:1583679073880244_________becomeCandidate__term: 16___________
+
+
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+____time:1583679073880412_______ReqestVote Call to nodeid 0_____________
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13523 Cross Thread RunInloop()
+*debug* In Thread 13531 Be WakeUped()
+*debug* In Thread 13530 Be WakeUped()
+____time:1583679073880470______ResetHeartBeat_noid: 0__name: node0__________
+*debug* dotasks nums 1
+*debug* dotasks nums 2
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679073880521_______ReqestVote Call to nodeid 2_____________
+*debug* In Thread 13523 Cross Thread RunInloop()
+____time:1583679073880550______ResetHeartBeat_noid: 2__name: node2__________
+*debug* In Thread 13523 Cross Thread RunInloop()
+__________ResetElection__________
+*debug* In Thread 13523 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 1219955
+*debug* resetTimer: time: 1219929
+*debug* epoll_wait ret 1
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 2
+___time:1583679073880782________ReqVote Call_____________
+New Raft Conn Call Back Before
+*debug* In Thread 13530 RunInloop Directly()
+*debug* hanleEstablish 13530
+*debug* addchannel 22
+New Raft Conn Call Back After
+___time:1583679073880902________ReqVote Call_____________
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* In Thread 13530 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* resetTimer: time: 4999378
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Poller Return
+*debug* readv ret 30
+*debug* Fd 22 readFd ret 30
+___________type Decoder_____________
+___________test VotRes_____________
+___time:1583679073881433_______Recv VotResp from 0_____________
+
+
+_____time:1583679073881451______becomeLeader_term:16____________
+
+
+__time:1583679073881489_________AppendEntry Call to nodeid 0_____________
+____time:1583679073881530______ResetHeartBeat_noid: 0__name: node0__________
+*debug* In Thread 13530 RunInloop Directly()
+*debug* No Need Reset
+__time:1583679073881620_________AppendEntry Call to nodeid 2_____________
+____time:1583679073881658______ResetHeartBeat_noid: 2__name: node2__________
+*debug* epoll_wait ret 1
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* In Thread 13531 Poller Return
+*debug* In Thread 13531 Be WakeUped()
+*debug* dotasks nums 2
+*debug* In Thread 13530 Cross Thread RunInloop()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13523 Poller Return
+*debug* In Thread 13523 Be WakeUped()
+*debug* dotasks nums 1
+*debug* write 65 bytes in sendData
+*debug* Write Finish

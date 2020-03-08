@@ -1,0 +1,250 @@
+*debug* addchannel 4
+*debug* wakeupchannel add
+*debug* addchannel 5
+*debug* In Thread 7245 RunInloop Directly()
+*debug* Need Reset
+*debug* resetTimer: time: 11999941
+*debug* Server Start
+*debug* accept channel add
+*debug* addchannel 6
+*debug* addchannel 9
+*debug* wakeupchannel add
+*debug* addchannel 10
+*debug* addchannel 12
+*debug* wakeupchannel add
+*debug* addchannel 13
+*debug* addchannel 15
+*debug* wakeupchannel add
+*debug* addchannel 16
+*debug* addchannel 18
+*debug* wakeupchannel add
+*debug* addchannel 19
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* accept conn 127.0.0.1:35432
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 7245 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7366 Poller Return
+*debug* In Thread 7366 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 7366
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* accept conn 127.0.0.1:35436
+*debug* handleNewConn
+New Connection Fd 21
+*debug* getloop
+*debug* In Thread 7245 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* In Thread 7367 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 7367
+*debug* addchannel 21
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 34
+*debug* Fd 21 readFd ret 34
+___________type Decoder_____________
+___________test VotReq_____________
+____time:1583590779647475_______Recv VotReq from 1_____________
+____time:1583590779647489_______Resp ReqVote True_____________
+*debug* write 30 bytes in sendData
+*debug* Write Finish
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 65
+*debug* Fd 21 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590779648111________Recv ApdReq from 1_____________
+____time:1583590779648128_______Resp AppendEntry False_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 65
+*debug* Fd 21 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590779648760________Recv ApdReq from 1_____________
+_______LOGSIZE__1______
+__time:1583590779648806_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 65
+*debug* Fd 21 readFd ret 65
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590779649411________Recv ApdReq from 1_____________
+_______LOGSIZE__1______
+__time:1583590779649428_________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 12954254
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 42
+*debug* Fd 21 readFd ret 42
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590784650117________Recv ApdReq from 1_____________
+_______LOGSIZE__0______
+___time:1583590784650364________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 42
+*debug* Fd 21 readFd ret 42
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590789650424________Recv ApdReq from 1_____________
+_______LOGSIZE__0______
+___time:1583590789650441________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* No Need Reset
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+timeouts size: 0
+*debug* resetTimer: time: 15000348
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 42
+*debug* Fd 21 readFd ret 42
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590794651084________Recv ApdReq from 1_____________
+_______LOGSIZE__0______
+___time:1583590794651101________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+*debug* dotasks nums 1
+___________type Decoder_____________
+*debug* No Need Reset
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 42
+*debug* Fd 21 readFd ret 42
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590799651648________Recv ApdReq from 1_____________
+_______LOGSIZE__0______
+___time:1583590799651667________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* resetTimer: time: 10199773
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 42
+*debug* Fd 21 readFd ret 42
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590804652487________Recv ApdReq from 1_____________
+_______LOGSIZE__0______
+___time:1583590804652503________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* In Thread 7367 Poller Return
+*debug* readv ret 42
+*debug* Fd 21 readFd ret 42
+___________type Decoder_____________
+___________test ApdReq_____________
+___time:1583590809652921________Recv ApdReq from 1_____________
+_______LOGSIZE__0______
+___time:1583590809652939________Resp AppendEntry True_____________
+__________ResetElection__________
+*debug* In Thread 7367 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 7245 Poller Return
+*debug* In Thread 7245 Be WakeUped()
+*debug* dotasks nums 1
+*debug* No Need Reset
+*debug* write 34 bytes in sendData
+*debug* Write Finish
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug
