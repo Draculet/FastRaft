@@ -1,4 +1,11 @@
-#include "demo.h"
+#include "RpcEncode.h"
+#include "AppendEntryArg.h"
+#include "AppendEntryRes.h"
+#include "RequestVoteArg.h"
+#include "RequestVoteRes.h"
+#include "../FastNet/include/UnixTime.h"
+
+using namespace std;
 
 string RpcEncoder::apdReqEncode(AppendEntryArg &arg)
 {
@@ -23,19 +30,19 @@ string RpcEncoder::apdReqEncode(AppendEntryArg &arg)
     char buf[96 + logStr.size() + flag.size()] = {0};
     string type = "ApdReq";
     memcpy(buf + 4, type.c_str(), 6);
-    nodeId = htons(nodeId);
+    nodeId = htonl(nodeId);
     memcpy(buf + 10, &nodeId, 4);
-    term = htons(term);
+    term = htonl(term);
     memcpy(buf + 14, &term, 4);
-    preLogIndex = htons(preLogIndex);
+    preLogIndex = htonl(preLogIndex);
     memcpy(buf + 18, &preLogIndex, 4);
-    preLogTerm = htons(preLogTerm);
+    preLogTerm = htonl(preLogTerm);
     memcpy(buf + 22, &preLogTerm, 4);
-    int lognum_ = htons(lognum);
+    int lognum_ = htonl(lognum);
     memcpy(buf + 26, &lognum_, 4);
-    commitIndex = htons(commitIndex);
+    commitIndex = htonl(commitIndex);
     memcpy(buf + 30, &commitIndex, 4);
-    int fsize = htons(flag.size());
+    int fsize = htonl(flag.size());
     memcpy(buf + 34, &fsize, 4);
     memcpy(buf + 38, flag.c_str(), flag.size());
     total = 34 + flag.size();
@@ -46,7 +53,7 @@ string RpcEncoder::apdReqEncode(AppendEntryArg &arg)
         memcpy(buf + 38 + flag.size(), logStr.c_str(), logStr.size());
         total = 34 + flag.size() + logStr.size();
     }
-    int total_ = htons(total);
+    int total_ = htonl(total);
     memcpy(buf, &total_, 4);
     return string(buf, total + 4);
 }
@@ -63,18 +70,18 @@ string RpcEncoder::apdResEncode(AppendEntryRes &arg)
     char buf[48] = {0};
     string type = "ApdRes";
     memcpy(buf + 4, type.c_str(), 6);
-    nodeId = htons(nodeId);
+    nodeId = htonl(nodeId);
     memcpy(buf + 10, &nodeId, 4);
     memcpy(buf + 14, succ.c_str(), 4);/* 4byte true|fals */
-    matchIndex = htons(matchIndex);
+    matchIndex = htonl(matchIndex);
     memcpy(buf + 18, &matchIndex, 4);
-    term = htons(term);
+    term = htonl(term);
     memcpy(buf + 22, &term, 4);
-    int fsize = htons(flag.size());
+    int fsize = htonl(flag.size());
     memcpy(buf + 26, &fsize, 4);
     memcpy(buf + 30, flag.c_str(), flag.size());
     total = 26 + flag.size();
-    int total_ = htons(total);
+    int total_ = htonl(total);
     memcpy(buf, &total_, 4);
     return string(buf, total + 4);
 }
@@ -89,16 +96,16 @@ string RpcEncoder::votResEncode(RequestVoteRes &arg)
     char buf[48] = {0};
     string type = "VotRes";
     memcpy(buf + 4, type.c_str(), 6);
-    nodeId = htons(nodeId);
+    nodeId = htonl(nodeId);
     memcpy(buf + 10, &nodeId, 4);
     memcpy(buf + 14, succ.c_str(), 4);/* 4byte true|fals */
-    term = htons(term);
+    term = htonl(term);
     memcpy(buf + 18, &term, 4);
-    int fsize = htons(flag.size());
+    int fsize = htonl(flag.size());
     memcpy(buf + 22, &fsize, 4);
     memcpy(buf + 26, flag.c_str(), flag.size());
     total = 22 + flag.size();
-    int total_ = htons(total);
+    int total_ = htonl(total);
     memcpy(buf, &total_, 4);
     return string(buf, total + 4);
 }
@@ -115,20 +122,20 @@ string RpcEncoder::votReqEncode(RequestVoteArg &arg)
     char buf[96 + flag.size()] = {0};
     string type = "VotReq";
     memcpy(buf + 4, type.c_str(), 6);
-    nodeId = htons(nodeId);
+    nodeId = htonl(nodeId);
     memcpy(buf + 10, &nodeId, 4);
-    term = htons(term);
+    term = htonl(term);
     memcpy(buf + 14, &term, 4);
-    lastLogIndex = htons(lastLogIndex);
+    lastLogIndex = htonl(lastLogIndex);
     memcpy(buf + 18, &lastLogIndex, 4);
-    lastLogTerm = htons(lastLogTerm);
+    lastLogTerm = htonl(lastLogTerm);
     memcpy(buf + 22, &lastLogTerm, 4);
-    int fsize = htons(flag.size());
+    int fsize = htonl(flag.size());
     memcpy(buf + 26, &fsize, 4);
     memcpy(buf + 30, flag.c_str(), flag.size());
     total = 26 + flag.size();
 
-    int total_ = htons(total);
+    int total_ = htonl(total);
     memcpy(buf, &total_, 4);
     return string(buf, total + 4);
 }

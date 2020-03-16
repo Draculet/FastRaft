@@ -1,0 +1,1491 @@
+___________test ApdReq_____________
+___time:1584155682049255________Recv ApdReq from 0_____________
+____time:1584155682049280_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+_______commitIndex: 17________
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid*debug* readv ret 64
+
+___________type Decoder_____________
+
+
+TEST: 60
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155682050145________Recv ApdReq from 0_____________
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___________type Decoder_____________
+
+
+TEST: 38
+
+___________test ApdReq_____________
+___time:1584155725427645________Recv ApdReq from 0_____________
+_______LOGSIZE__0______
+___time:1584155725427683________Resp AppendEntry True_____________
+__________ResetElection__________
+___________type Decoder_____________
+_______commitIndex: 17________
+_______commitIndex: 17________
+*debug* readv ret 42
+___________type Decoder_____________
+
+
+TEST: 38
+
+___________test ApdReq_____________
+___time:1584155725478248________Recv ApdReq from 0_____________
+_______LOGSIZE__0______
+___time:1584155725478282________Resp AppendEntry True_____________
+__________ResetElection__________
+___________type Decoder_____________
+_______commitIndex: 17________
+_______commitIndex: 17________
+_______commitIndex: 17________
+*debug* readv ret 42
+___________type Decoder_____________
+
+
+TEST: 38
+
+___________test ApdReq_____________
+___time:1584155725528414________Recv ApdReq from 0_____________
+_______LOGSIZE__0______
+___time:1584155725528461________Resp AppendEntry True_____________
+__________ResetElection__________
+___________type Decoder_____________
+^C
+homulia@homulia-ThinkPad-E470c:~/RaftDemo/RaftServer$ ./main 3
+_______commitIndex: 0________
+_______commitIndex: 0________
+*debug* readv ret 42
+___________type Decoder_____________
+
+
+TEST: 38
+
+___________test ApdReq_____________
+___time:1584155725831012________Recv ApdReq from 0_____________
+____time:1584155725831034_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 65
+___________type Decoder_____________
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584155725831886________Recv ApdReq from 0_____________
+____time:1584155725831915_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725832645________Recv ApdReq from 0_____________
+____time:1584155725832667_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725833453________Recv ApdReq from 0_____________
+____time:1584155725833482_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725834450________Recv ApdReq from 0_____________
+____time:1584155725834475_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725835245________Recv ApdReq from 0_____________
+____time:1584155725835272_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725836060________Recv ApdReq from 0_____________
+____time:1584155725836093_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725836893________Recv ApdReq from 0_____________
+____time:1584155725836915_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725837644________Recv ApdReq from 0_____________
+____time:1584155725837669_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725838363________Recv ApdReq from 0_____________
+____time:1584155725838381_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725839025________Recv ApdReq from 0_____________
+____time:1584155725839045_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+*debug* readv ret 64
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584155725839734________Recv ApdReq from 0_____________
+____time:1584155725839759_______Resp AppendEntry False_____________
+__________ResetElection__________
+_______commitIndex: 17________
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_______commitIndex: 0________
+___________type Decoder_____________
+
+
+TEST: 38
+
+___________test ApdReq_____________
+___time:1584156814269097________Recv ApdReq from 1_____________
+____time:1584156814269127_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584156814270043________Recv ApdReq from 1_____________
+____time:1584156814270066_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 80
+
+___________test ApdReq_____________
+___time:1584156814270756________Recv ApdReq from 1_____________
+____time:1584156814270783_______Resp AppendEntry False_____________
+__________ResetElection__________
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 59
+
+___________test ApdReq_____________
+_______commitIndex: 9________
+___time:1584156814271451________Recv ApdReq from 1_____________
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584157245785891________Recv ApdReq from 1_____________
+OK
+____time:1584157245786003_______Resp AppendEntry False_____________
+__________ResetElection__________
+OK3
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584157245786953________Recv ApdReq from 1_____________
+OK
+____time:1584157245787000_______Resp AppendEntry False_____________
+__________ResetElection__________
+OK3
+___________type Decoder_____________
+_______commitIndex: 4________
+___________type Decoder_____________
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584157245787830________Recv ApdReq from 1_____________
+OK
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584157908001198________Recv ApdReq from 0_____________
+OK8
+OK11
+____time:1584157908001242_______Resp AppendEntry False_____________
+__________ResetElection__________
+ok4
+ok6
+ok5
+OK3
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584157908002124________Recv ApdReq from 0_____________
+OK8
+OK11
+____time:1584157908002167_______Resp AppendEntry False_____________
+__________ResetElection__________
+ok4
+ok6
+ok5
+OK3
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584157908002970________Recv ApdReq from 0_____________
+OK8
+OK9
+OK10
+_______LOGSIZE__1______
+__time:1584157908003044_________Resp AppendEntry True_____________
+__________ResetElection__________
+ok4
+ok6
+ok5
+OK3
+___________type Decoder_____________
+_______commitIndex: 10________
+Segmentation fault (core dumped)
+
+
+
+
+
+
+
+
+
+
+OK3
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 60
+
+___________test ApdReq_____________
+___time:1584158819526282________Recv ApdReq from 0_____________
+OKk1
+OKk2
+OKk3
+OKk4
+_______commitIndex: 10________
+continue
+continue1
+continue1
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+
+
+
+
+
+
+
+____time:1584159035005809_______Resp AppendEntry False_____________
+__________ResetElection__________
+ok4
+ok6
+ok5
+OK3
+___________type Decoder_____________
+_______commitIndex: 11________
+continue
+continue1
+continue1
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_______LOGSIZE__1______
+__time:1584159072774401_________Resp AppendEntry True_____________
+__________ResetElection__________
+ok4
+ok6
+ok5
+OK3
+___________type Decoder_____________
+_______commitIndex: 12________
+continue
+continue1
+continue1
+continue1
+continue1
+Segmentation fault (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+
+___________test ApdReq_____________
+___time:1584159094302009________Recv ApdReq from 0_____________
+OKk1
+OKk2
+OKk3
+OKk4
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+___________type Decoder_____________
+_______commitIndex: 12________
+continue
+continue1
+continue1
+___________type Decoder_____________
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584159112572933________Recv ApdReq from 0_____________
+OKk1
+OKk2
+OKk3
+OKk4
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+___________test VotRes_____________
+___time:1584162295965299_______Recv VotResp from 2_____________
+___time:1584162295965303________ReqVote Call_____________
+
+
+____time:1584162295965366_______becomeFollower_term:124____________
+
+
+__________ResetElection__________
+_______commitIndex: 2________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584162295993178_______Recv VotReq from 1_____________
+____time:1584162295 993201_______Resp ReqVote False_____________
+___________type Decoder_____________
+_______commitIndex: 2________
+return
+_______commitIndex: 2________
+return
+_______commitIndex: 2________
+return
+_______commitIndex: 2________
+return
+
+
+__time:1584162296 070649_________becomeCandidate__term: 125___________
+
+
+Segmentation fault (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164499702235_______Recv VotReq from 1_____________
+_____time:1584164499702258______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+___time:1584164499718090________ReqestVote Call to nodeid 2_____________
+____time:1584164499718144______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164499718268________ReqVote Call_____________
+___time:1584164499718269________ReqestVote Call to nodeid 4_____________
+____time:1584164499718354______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584164499718451________ReqVote Call_____________
+___time:1584164499718574________ReqestVote Call to nodeid 3_____________
+____time:1584164499718644______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584164499718784________ReqVote Call_____________
+_______commitIndex: 11________
+return
+
+
+__time:1584164499741818_________becomeCandidate__term: 186___________
+
+
+____time:1584164499741865_______ReqestVote Call to nodeid 1_____________
+____time:1584164499741907______ResetHeartBeat_noid: 1__name: node1__________
+___time:1584164499741951________ReqVote Call_____________
+____time:1584164499741966_______ReqestVote Call to nodeid 2_____________
+____time:1584164499742044______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164499742160________ReqVote Call_____________
+____time:1584164499742198_______ReqestVote Call to nodeid 3_____________
+____time:1584164499742252______ResetHeartBeat_noid: 3__name: node3__________
+____time:1584164499742303_______ReqestVote Call to nodeid 4_____________
+____time:1584164499742343______ResetHeartBeat_noid: 4__name: node4__________
+__________ResetElection__________
+___________type Decoder_____________
+
+
+TEST: 26
+
+___time:1584164499742472________ReqVote Call_____________
+___time:1584164499742521________ReqVote Call_____________
+___________test VotRes_____________
+___time:1584164499742652_______Recv VotResp from 1_____________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164499752486_______Recv VotReq from 1_____________
+____time:1584164499752501_______Resp ReqVote False_____________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+_______commitIndex: 11________
+return
+___time:1584164499792138________ReqestVote Call to nodeid 2_____________
+____time:1584164499792185______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164499792248________ReqVote Call_____________
+___time:1584164499792364________ReqestVote Call to nodeid 3_____________
+____time:1584164499792413______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584164499792532________ReqVote Call_____________
+___time:1584164499792536________ReqestVote Call to nodeid 4_____________
+____time:1584164499792630______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584164499792701________ReqVote Call_____________
+_______commitIndex: 11________
+return
+_______commitIndex: 11________
+return
+___time:1584164499842307________ReqestVote Call to nodeid 2_____________
+____time:1584164499842365______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164499842446________ReqVote Call_____________
+___time:1584164499842515________ReqestVote Call to nodeid 3_____________
+____time:1584164499842559______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584164499842634________ReqVote Call_____________
+___time:1584164499842734________ReqestVote Call to nodeid 4_____________
+____time:1584164499842780______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584164499842862________ReqVote Call_____________
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164499861327_______Recv VotReq from 1_____________
+_____time:1584164499861350______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+_______commitIndex: 11________
+return
+___time:1584164499892525________ReqestVote Call to nodeid 2_____________
+____time:1584164499892600______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164499892742________ReqestVote Call to nodeid 3_____________
+___time:1584164499892747________ReqVote Call_____________
+____time:1584164499892802______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584164499893010________ReqVote Call_____________
+___time:1584164499893069________ReqestVote Call to nodeid 4_____________
+____time:1584164499893141______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584164499893265________ReqVote Call_____________
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164499911707_______Recv VotReq from 1_____________
+_____time:1584164499911732______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+
+
+__time:1584164499929649_________becomeCandidate__term: 187___________
+
+
+____time:1584164499929715_______ReqestVote Call to nodeid 1_____________
+____time:1584164499929776______ResetHeartBeat_noid: 1__name: node1__________
+___time:1584164499929819________ReqVote Call_____________
+____time:1584164499929832_______ReqestVote Call to nodeid 2_____________
+____time:1584164499929921______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164499929953________ReqVote Call_____________
+____time:1584164499929960_______ReqestVote Call to nodeid 3_____________
+____time:1584164499930022______ResetHeartBeat_noid: 3__name: node3__________
+____time:1584164499930064_______ReqestVote Call to nodeid 4_____________
+____time:1584164499930102______ResetHeartBeat_noid: 4__name: node4__________
+__________ResetElection__________
+___time:1584164499930258________ReqVote Call_____________
+___time:1584164499930356________ReqVote Call_____________
+___________type Decoder_____________
+
+
+TEST: 26
+
+___________test VotRes_____________
+___time:1584164499930502_______Recv VotResp from 1_____________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164499961846_______Recv VotReq from 1_____________
+____time:1584164499961868_______Resp ReqVote False_____________
+___________type Decoder_____________
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164499964176_______Recv VotReq from 1_____________
+_____time:1584164499964198______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+___time:1584164499980013________ReqestVote Call to nodeid 2_____________
+____time:1584164499980059______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164499980191________ReqVote Call_____________
+___time:1584164499980191________ReqestVote Call to nodeid 3_____________
+____time:1584164499980289______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584164499980385________ReqVote Call_____________
+___time:1584164499980494________ReqestVote Call to nodeid 4_____________
+____time:1584164499980551______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584164499980653________ReqVote Call_____________
+_______commitIndex: 11________
+return
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164500014085_______Recv VotReq from 1_____________
+_____time:1584164500014117______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+___time:1584164500030254________ReqestVote Call to nodeid 2_____________
+____time:1584164500030300______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164500030377________ReqVote Call_____________
+___time:1584164500030388________ReqestVote Call to nodeid 3_____________
+____time:1584164500030497______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584164500030573________ReqVote Call_____________
+___time:1584164500030663________ReqestVote Call to nodeid 4_____________
+____time:1584164500030697______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584164500030759________ReqVote Call_____________
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164500064289_______Recv VotReq from 1_____________
+_____time:1584164500064308______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164500076962_______Recv VotReq from 1_____________
+_____time:1584164500076983______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+___time:1584164500080408________ReqestVote Call to nodeid 2_____________
+____time:1584164500080461______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164500080543________ReqVote Call_____________
+___time:1584164500080647________ReqestVote Call to nodeid 3_____________
+____time:1584164500080696______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584164500080815________ReqVote Call_____________
+___time:1584164500080818________ReqestVote Call to nodeid 4_____________
+____time:1584164500080898______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584164500080978________ReqVote Call_____________
+_______commitIndex: 11________
+return
+
+
+__time:1584164500093322_________becomeCandidate__term: 188___________
+
+
+____time:1584164500093369_______ReqestVote Call to nodeid 1_____________
+____time:1584164500093413______ResetHeartBeat_noid: 1__name: node1__________
+___time:1584164500093443________ReqVote Call_____________
+____time:1584164500093463_______ReqestVote Call to nodeid 2_____________
+____time:1584164500093574______ResetHeartBeat_noid: 2__name: node2__________
+___time:1584164500093612________ReqVote Call_____________
+____time:1584164500093623_______ReqestVote Call to nodeid 3_____________
+____time:1584164500093748______ResetHeartBeat_noid: 3__name: node3__________
+____time:1584164500093803_______ReqestVote Call to nodeid 4_____________
+____time:1584164500093840______ResetHeartBeat_noid: 4__name: node4__________
+__________ResetElection__________
+___________type Decoder_____________
+
+
+TEST: 26
+
+___________test VotRes_____________
+___time:1584164500094054_______Recv VotResp from 1_____________
+___time:1584164500093981________ReqVote Call_____________
+
+
+____time:1584164500094096_______becomeFollower_term:189____________
+
+
+__________ResetElection__________
+___time:1584164500094309________ReqVote Call_____________
+_______commitIndex: 11________
+return
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164500127360_______Recv VotReq from 1_____________
+____time:1584164500127401_______Resp ReqVote False_____________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+_______commitIndex: 11________
+return
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584164500179614_______Recv VotReq from 1_____________
+_____time:1584164500179651______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+_______commitIndex: 11________
+return
+
+
+__time:1584164500202331_________becomeCandidate__term: 190___________
+
+
+*** Error in `./main': malloc(): memory corruption: 0x00000000009b0510 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7f43bfafc7e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8213e)[0x7f43bfb0713e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_malloc+0x54)[0x7f43bfb09184]
+/usr/lib/x86_64-linux-gnu/libstdc++.so.6(_Znwm+0x18)[0x7f43c00f2e78]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bug输入:
+
+set bbb sjdiasjfiosajfoiasjoifjasoifjasiofjoiasjfoiasjfioasjfioasjdioasjoidjasoidjasiojdioasjdioasjidjasidjiasojdioasjidoasjoidjasiodjasiojdoasijdiasjdoiasjdoijasoidjasiojdoiasjdoiasjdoiasjdioasjdoiasjdioasjdioasjidjsaiodjasiodjasijdioasjdioasjdioasjdioasjdioasjdioasjdioasjdiasjdioasjdioasjodjasoicjasijcaiosjcioasjciasjciasjciasjcaiscjasijcaisjciasjciaosjdioasdioqwuriqwurioqwurioqwuriqwuriqwurioqwuriqwurioqwurioqwurioqwurioqwurioqwdjiqowodjqiwjdoiqwjdiojqwiodjqwiojdioqwjdioqwjdioqwjdioqwjidjqwiodjqwiodjoqwijdioqjdioqwjdiqjwidqjidjqiodjqwiojdoqwijdoqiwjdiqowjdoqwijdiqwojdioqwjdiqwjdiqweqwiuriqwuriwuriqwuriqowuriqowuriqwruiqwdiqwhduiqwhduiqwhdiuqwhdiuqwidhqiwudhiqwuhdiquwhdiuqwhduiqwhduiqwhdiquhduiqhduqwdhuiqwhdiquwdhqiiqwuhdquiwhdqwudhquwdhquwdhqwuiwdhuqwdhuqiwhdquiwdhquiwdhqwuidhquwddhqwdhuqwdqwdqwdqwdqwdqwdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddqwdqwdwqdqwdqwdqwdczxzxcxzczxczxcxzczxczxczxczxcz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___time:1584169748077272________ReqestVote Call to nodeid 1_____________
+____time:1584169748077307______ResetHeartBeat_noid: 1__name: node1__________
+___time:1584169748077375________ReqVote Call_____________
+ConnectInloop
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+duecall
+___time:1584169748077726________ReqestVote Call to nodeid 3_____________
+____time:1584169748077754______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584169748077818________ReqVote Call_____________
+ConnectInloop
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+duecall
+ConnectInloop Failed
+___time:1584169748077957________ReqestVote Call to nodeid 4_____________
+*debug* epoll_wait ret 1
+____time:1584169748078025______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584169748078102________ReqVote Call_____________
+ConnectInloop
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 0________
+return
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 0________
+return
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584169748125299_______Recv VotReq from 2_____________
+______time:1584169748125317_____Resp ReqVote True_____________
+__________ResetElection__________
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 0________
+return
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+duecall
+___time:1584169748127401________ReqestVote Call to nodeid 1_____________
+____time:1584169748127431______ResetHeartBeat_noid: 1__name: node1__________
+___time:1584169748127503________ReqVote Call_____________
+ConnectInloop
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+duecall
+___time:1584169748127871________ReqestVote Call to nodeid 3_____________
+____time:1584169748127903______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584169748127977________ReqVote Call_____________
+ConnectInloop
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+ConnectInloop Failed
+duecall
+*debug* epoll_wait ret 1
+___time:1584169748128162________ReqestVote Call to nodeid 4_____________
+____time:1584169748128225______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584169748128289________ReqVote Call_____________
+ConnectInloop
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 0________
+return
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 0________
+return
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+*debug* No Time Timeout
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584169748175937_______Recv VotReq from 2_____________
+____time:1584169748175954_______Resp ReqVote False_____________
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+duecall
+___time:1584169748177646________ReqestVote Call to nodeid 1_____________
+____time:1584169748177682______ResetHeartBeat_noid: 1__name: node1__________
+___time:1584169748177755________ReqVote Call_____________
+ConnectInloop
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 61
+
+___________test ApdReq_____________
+___time:1584169748177871________Recv ApdReq from 2_____________
+OKk1
+OKk2
+OKk3
+OKk4
+OKk5
+OKk6
+OKk7
+
+
+____time:1584169748177939_______becomeFollower_term:31____________
+
+
+~RaftConnection()
+~RaftConnection()
+~RaftConnection()
+~RaftConnection()
+__________ResetElection__________
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+*debug* epoll_wait ret 1
+ConnectInloop Succ
+Segmentation fault (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___time:1584170808606087________ReqestVote Call to nodeid 3_____________
+____time:1584170808606188______ResetHeartBeat_noid: 3__name: node3__________
+duecall
+___time:1584170808606331________ReqestVote Call to nodeid 4_____________
+____time:1584170808606365______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584170808606275________ReqVote Call_____________
+ConnectInloop
+___time:1584170808606467________ReqVote Call_____________
+ConnectInloop
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 2________
+return
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 2________
+return
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584170808647266_______Recv VotReq from 0_____________
+_____time:1584170808647278______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 2________
+return
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+duecall
+___time:1584170808656294________ReqestVote Call to nodeid 3_____________
+____time:1584170808656320______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584170808656373________ReqVote Call_____________
+ConnectInloop
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+duecall
+ConnectInloop Failed
+___time:1584170808656519________ReqestVote Call to nodeid 4_____________
+*debug* epoll_wait ret 1
+____time:1584170808656586______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584170808656660________ReqVote Call_____________
+ConnectInloop
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 2________
+return
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+_______commitIndex: 2________
+return
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584170808697440_______Recv VotReq from 0_____________
+_____time:1584170808697456______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 30
+
+___________test VotReq_____________
+____time:1584170808705247_______Recv VotReq from 1_____________
+_____time:1584170808705271______Resp ReqVote False___lastlog < mine__________
+___________type Decoder_____________
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+
+
+__time:1584170808706337_________becomeCandidate__term: 96___________
+
+
+getHere4
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+____time:1584170808706380_______ReqestVote Call to nodeid 0_____________
+____time:1584170808706537______ResetHeartBeat_noid: 0__name: node0__________
+getHere5
+getHere4
+____time:1584170808706611_______ReqestVote Call to nodeid 1_____________
+*debug* epoll_wait ret 1
+*debug* epoll_wait ret 1
+____time:1584170808706652______ResetHeartBeat_noid: 1__name: node1__________
+___time:1584170808706704________ReqVote Call_____________
+getHere5
+getHere4
+getHere5
+getHere4
+____time:1584170808706820_______ReqestVote Call to nodeid 3_____________
+____time:1584170808706858______ResetHeartBeat_noid: 3__name: node3__________
+getHere5
+getHere4
+____time:1584170808706921_______ReqestVote Call to nodeid 4_____________
+____time:1584170808706958______ResetHeartBeat_noid: 4__name: node4__________
+getHere5
+__________ResetElection__________
+*debug* epoll_wait ret 1
+___time:1584170808707148________ReqVote Call_____________
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 26
+
+___________test VotRes_____________
+duecall
+___time:1584170808707393________ReqestVote Call to nodeid 3_____________
+____time:1584170808707461______ResetHeartBeat_noid: 3__name: node3__________
+___time:1584170808707535________ReqVote Call_____________
+ConnectInloop
+ConnectInloop Failed
+___time:1584170808707816________ReqVote Call_____________
+ConnectInloop
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*debug* Timer::handleRead()
+___time:1584170808707366_______Recv VotResp from 0_____________
+duecall
+___time:1584170808708154________ReqestVote Call to nodeid 4_____________
+____time:1584170808708207______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584170808708306________ReqVote Call_____________
+ConnectInloop
+
+
+____time:1584170808708320_______becomeFollower_term:97____________
+
+
+~RaftConnection()
+~RaftConnection()
+~RaftConnection()
+*debug* epoll_wait ret 2
+ConnectInloop Failed
+__________ResetElection__________
+___________type Decoder_____________
+
+
+TEST: 26
+
+___time:1584170808708829________ReqVote Call_____________
+*debug* epoll_wait ret 1
+___________test VotRes_____________
+ConnectInloop
+*** Error in `./main': free(): corrupted unsorted chunks: 0x00000000008338a0 ***
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+___time:1584170808708965_______Recv VotResp from 1_____________
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7f601981e7e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8037a)[0x7f601982737a]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7f601982b53c]
+./main[0x423332]
+./main[0x422a67]
+./main[0x4217f5]
+./main[0x41f1c8]
+./main[0x420616]
+./main[0x41e75d]
+./main[0x41cecd]
+./main[0x41b228]
+./main[0x41b788]
+./main[0x41afab]
+./main[0x422c15]
+./main[0x421a48]
+./main[0x41f575]
+./main[0x41ddb2]
+./main[0x405174]
+./main[0x40bc8c]
+./main[0x40bb2f]
+./main[0x410be0]
+./main[0x42b002]
+./main[0x424998]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f60197c7830]
+./main[0x402e59]
+======= Memory map: ========
+00400000-0046c000 r-xp 00000000 08:0a 2368054                            /home/homulia/RaftDemo/RaftServer/main
+0066b000-0066c000 r--p 0006b000 08:0a 2368054                            /home/homulia/RaftDemo/RaftServer/main
+0066c000-0066d000 rw-p 0006c000 08:0a 2368054                            /home/homulia/RaftDemo/RaftServer/main
+00820000-00852000 rw-p 00000000 00:00 0                                  [heap]
+7f5ff8000000-7f5ff8021000 rw-p 00000000 00:00 0 
+7f5ff8021000-7f5ffc000000 ---p 00000000 00:00 0 
+7f6000000000-7f6000021000 rw-p 00000000 00:00 0 
+7f6000021000-7f6004000000 ---p 00000000 00:00 0 
+7f6004000000-7f6004021000 rw-p 00000000 00:00 0 
+7f6004021000-7f6008000000 ---p 00000000 00:00 0 
+7f6008000000-7f6008021000 rw-p 00000000 00:00 0 
+7f6008021000-7f600c000000 ---p 00000000 00:00 0 
+7f600c000000-7f600c021000 rw-p 00000000 00:00 0 
+7f600c021000-7f6010000000 ---p 00000000 00:00 0 
+7f60127fd000-7f60127fe000 ---p 00000000 00:00 0 
+7f60127fe000-7f6012ffe000 rw-p 00000000 00:00 0 
+7f6012ffe000-7f6012fff000 ---p 00000000 00:00 0 
+7f6012fff000-7f60137ff000 rw-p 00000000 00:00 0 
+7f60137ff000-7f6013800000 ---p 00000000 00:00 0 
+7f6013800000-7f6014000000 rw-p 00000000 00:00 0 
+7f6014000000-7f6014021000 rw-p 00000000 00:00 0 
+7f6014021000-7f6018000000 ---p 00000000 00:00 0 
+7f601849c000-7f601849d000 ---p 00000000 00:00 0 
+7f601849d000-7f6018c9d000 rw-p 00000000 00:00 0 
+7f6018c9d000-7f6018c9e000 ---p 00000000 00:00 0 
+7f6018c9e000-7f601949e000 rw-p 00000000 00:00 0 
+7f601949e000-7f60195a6000 r-xp 00000000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f60195a6000-7f60197a5000 ---p 00108000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f60197a5000-7f60197a6000 r--p 00107000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f60197a6000-7f60197a7000 rw-p 00108000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f60197a7000-7f6019967000 r-xp 00000000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f6019967000-7f6019b67000 ---p 001c0000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f6019b67000-7f6019b6b000 r--p 001c0000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f6019b6b000-7f6019b6d000 rw-p 001c4000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f6019b6d000-7f6019b71000 rw-p 00000000 00:00 0 
+7f6019b71000-7f6019b87000 r-xp 00000000 08:0a 660609                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f6019b87000-7f6019d86000 ---p 00016000 08:0a 660609                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f6019d86000-7f6019d87000 rw-p 00015000 08:0a 660609                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f6019d87000-7f6019ef9000 r-xp 00000000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f6019ef9000-7f601a0f9000 ---p 00172000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f601a0f9000-7f601a103000 r--p 00172000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f601a103000-7f601a105000 rw-p 0017c000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f601a105000-7f601a109000 rw-p 00000000 00:00 0 
+7f601a109000-7f601a121000 r-xp 00000000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f601a121000-7f601a320000 ---p 00018000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f601a320000-7f601a321000 r--p 00017000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f601a321000-7f601a322000 rw-p 00018000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f601a322000-7f601a326000 rw-p 00000000 00:00 0 
+7f601a326000-7f601a34c000 r-xp 00000000 08:0a 679098                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f601a529000-7f601a52f000 rw-p 00000000 00:00 0 
+7f601a54a000-7f601a54b000 rw-p 00000000 00:00 0 
+7f601a54b000-7f601a54c000 r--p 00025000 08:0a 679098                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f601a54c000-7f601a54d000 rw-p 00026000 08:0a 679098                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f601a54d000-7f601a54e000 rw-p 00000000 00:00 0 
+7ffe29ac5000-7ffe29ae6000 rw-p 00000000 00:00 0                          [stack]
+7ffe29b01000-7ffe29b04000 r--p 00000000 00:00 0                          [vvar]
+7ffe29b04000-7ffe29b06000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted (core dumped)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+____time:1584171708062548_______ReqestVote Call to nodeid 4_____________
+____time:1584171708062571______ResetHeartBeat_noid: 4__name: node4__________
+___time:1584171708062455________ReqVote Call_____________
+*debug* epoll_wait ret 1
+___time:1584171708062682________ReqVote Call_____________
+getHere5
+__________ResetElection__________
+*debug* epoll_wait ret 1
+___________type Decoder_____________
+
+
+TEST: 26
+
+*debug* epoll_wait ret 1
+___________test VotRes_____________
+*debug* epoll_wait ret 1
+___time:1584171708063248_______Recv VotResp from 0_____________
+___time:1584171708063221________ReqVote Call_____________
+
+
+____time:1584171708063278_______becomeFollower_term:123____________
+
+
+*debug* epoll_wait ret 1
+ConnectInloop
+___________type Decoder_____________
+
+
+TEST: 26
+
+___________test VotRes_____________
+___time:1584171708063431_______Recv VotResp from 2_____________
+ConnectInloop Failed
+___time:1584171708063258________ReqVote Call_____________
+ConnectInloop
+~RaftConnection()
+~RaftConnection()
+~RaftConnection()
+__________ResetElection__________
+ConnectInloop Failed
+*debug* epoll_wait ret 1
+*** Error in `./main': corrupted double-linked list: 0x00000000011e1930 ***
+======= Backtrace: =========
+~RaftConnection()
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7f7301e777e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x7e7c3)[0x7f7301e7e7c3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x80678)[0x7f7301e80678]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7f7301e8453c]
+./main[0x423332]
+./main[0x422a67]
+./main[0x4217f5]
+./main[0x41f1c8]
+./main[0x420616]
+./main[0x41e75d]
+./main[0x41cecd]
+./main[0x41b228]
+./main[0x41b788]
+./main[0x41afab]
+./main[0x422c15]
+./main[0x421a48]
+./main[0x41f575]
+./main[0x41ddb2]
+./main[0x405174]
+./main[0x40bc8c]
+./main[0x40bb2f]
+./main[0x410be0]
+./main[0x42b002]
+./main[0x424998]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f7301e20830]
+./main[0x402e59]
+======= Memory map: ========
+00400000-0046c000 r-xp 00000000 08:0a 2368054                            /home/homulia/RaftDemo/RaftServer/main
+0066b000-0066c000 r--p 0006b000 08:0a 2368054                            /home/homulia/RaftDemo/RaftServer/main
+0066c000-0066d000 rw-p 0006c000 08:0a 2368054                            /home/homulia/RaftDemo/RaftServer/main
+011cf000-01201000 rw-p 00000000 00:00 0                                  [heap]
+7f72e4000000-7f72e4021000 rw-p 00000000 00:00 0 
+7f72e4021000-7f72e8000000 ---p 00000000 00:00 0 
+7f72e8000000-7f72e8021000 rw-p 00000000 00:00 0 
+7f72e8021000-7f72ec000000 ---p 00000000 00:00 0 
+7f72ec000000-7f72ec021000 rw-p 00000000 00:00 0 
+7f72ec021000-7f72f0000000 ---p 00000000 00:00 0 
+7f72f2ffe000-7f72f2fff000 ---p 00000000 00:00 0 
+7f72f2fff000-7f72f37ff000 rw-p 00000000 00:00 0 
+7f72f37ff000-7f72f3800000 ---p 00000000 00:00 0 
+7f72f3800000-7f72f4000000 rw-p 00000000 00:00 0 
+7f72f4000000-7f72f4021000 rw-p 00000000 00:00 0 
+7f72f4021000-7f72f8000000 ---p 00000000 00:00 0 
+7f72f8000000-7f72f8021000 rw-p 00000000 00:00 0 
+7f72f8021000-7f72fc000000 ---p 00000000 00:00 0 
+7f72fc000000-7f72fc021000 rw-p 00000000 00:00 0 
+7f72fc021000-7f7300000000 ---p 00000000 00:00 0 
+7f73002f4000-7f73002f5000 ---p 00000000 00:00 0 
+7f73002f5000-7f7300af5000 rw-p 00000000 00:00 0 
+7f7300af5000-7f7300af6000 ---p 00000000 00:00 0 
+7f7300af6000-7f73012f6000 rw-p 00000000 00:00 0 
+7f73012f6000-7f73012f7000 ---p 00000000 00:00 0 
+7f73012f7000-7f7301af7000 rw-p 00000000 00:00 0 
+7f7301af7000-7f7301bff000 r-xp 00000000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f7301bff000-7f7301dfe000 ---p 00108000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f7301dfe000-7f7301dff000 r--p 00107000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f7301dff000-7f7301e00000 rw-p 00108000 08:0a 679115                     /lib/x86_64-linux-gnu/libm-2.23.so
+7f7301e00000-7f7301fc0000 r-xp 00000000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f7301fc0000-7f73021c0000 ---p 001c0000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f73021c0000-7f73021c4000 r--p 001c0000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f73021c4000-7f73021c6000 rw-p 001c4000 08:0a 679112                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f73021c6000-7f73021ca000 rw-p 00000000 00:00 0 
+7f73021ca000-7f73021e0000 r-xp 00000000 08:0a 660609                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f73021e0000-7f73023df000 ---p 00016000 08:0a 660609                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f73023df000-7f73023e0000 rw-p 00015000 08:0a 660609                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f73023e0000-7f7302552000 r-xp 00000000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f7302552000-7f7302752000 ---p 00172000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f7302752000-7f730275c000 r--p 00172000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f730275c000-7f730275e000 rw-p 0017c000 08:0a 2494870                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f730275e000-7f7302762000 rw-p 00000000 00:00 0 
+7f7302762000-7f730277a000 r-xp 00000000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f730277a000-7f7302979000 ---p 00018000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f7302979000-7f730297a000 r--p 00017000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f730297a000-7f730297b000 rw-p 00018000 08:0a 679099                     /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f730297b000-7f730297f000 rw-p 00000000 00:00 0 
+7f730297f000-7f73029a5000 r-xp 00000000 08:0a 679098                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f7302b82000-7f7302b88000 rw-p 00000000 00:00 0 
+7f7302ba3000-7f7302ba4000 rw-p 00000000 00:00 0 
+7f7302ba4000-7f7302ba5000 r--p 00025000 08:0a 679098                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f7302ba5000-7f7302ba6000 rw-p 00026000 08:0a 679098                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f7302ba6000-7f7302ba7000 rw-p 00000000 00:00 0 
+7ffda330e000-7ffda332f000 rw-p 00000000 00:00 0                          [stack]
+7ffda3331000-7ffda3334000 r--p 00000000 00:00 0                          [vvar]
+7ffda3334000-7ffda3336000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted (core dumped)

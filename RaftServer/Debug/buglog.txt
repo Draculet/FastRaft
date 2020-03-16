@@ -1,0 +1,13 @@
+*** bug日志 ***
+当输入set xxx xxxx value较大
+在返回succ 之后立马将leader 和另一 follower结束(需要结束两个节点并且足够快速)
+然后马上重启,此时有几率leader/follower抛出malloc/free错误
+记录见debuglog
+bug出现位置在new RaftNode等地方出现
+bug代码见bugcode
+
+
+
+> 已解决, 原因是在主线程调用的call函数是让RaftNode所属的线程执行callInloop,由于主线程调用call
+将callInloop送入node所属线程的任务队列后就返回了，即使在调用call之前RaftNode被shared_ptr保护,
+但在node所属线程中执行callInloop时没有shared_ptr保护，这就导致callInloop执行过程有被析构的危险
