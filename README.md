@@ -5,8 +5,8 @@ FastRaft是基于FastNet网络库,根据Raft论文实现的简陋分布式KV,暂
 本仓库包含：
 
 1. 维护节点一致性的服务端程序 RaftServer
-2. 提交set/get/del操作的客户端 RaftClient
-3. 依赖的网络库FastNet
+2. 提交set/get/del操作的客户端程序 RaftClient
+3. 依赖的网络库 FastNet
 
 ## 导航
 
